@@ -1,0 +1,61 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body{
+    background-image: url('static/images/IMG-3257.jpg');
+    background-size: 700px;
+}   
+input[id = "Username"]{
+     padding: 12px 20px;
+}
+
+input[id = "Password"]{
+    padding: 12px 20px;  
+}
+
+.button{
+    align-self: center;
+}
+
+</style>
+
+<center>
+    <head><title>OnlyCats</title></head>
+    <h1 style = color:black;>
+        OnlyCats</h1>
+    <form>
+        <input 
+        id = "Username"
+        type = 'text'
+        placeholder="Username"
+        text-align = center>
+    <br>
+    <input
+       id = "Password" 
+        type = text
+        placeholder = "Password">
+    <br>
+    <a href = "Profile">
+    <button
+    type = "button"
+    id = "login" 
+    > Login!</button> </a>
+
+    <script>
+        document.getElementById("login").onclick = function contact(){
+            let email = document.getElementById("Email").value;
+            let name = document.getElementById("FullName").value;
+        if(email == ""){
+                alert("Must enter a valid email");
+            }
+        if(name == ""){
+                alert("Must enter a valid name")
+            }
+        }
+    </script>
+    </form>
+   Don't have an account? <a href = 'UserInfo'>Sign up!</a></center>
+
+</html>

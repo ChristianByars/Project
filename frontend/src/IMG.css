@@ -1,0 +1,33 @@
+.Posts {
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: auto; 
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    overflow-y: auto;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    
+}
+input[id = "SearchBar"]{
+    padding: 12px 20px;
+    transform: translate(-300%,-1300%);
+    border-radius: 20px;
+  }
+
+input[id = 'FileButton']{
+    margin-bottom: 20px; 
+    padding: 10px;
+}
+input[id = 'BrowsePFP']{
+    margin-bottom: 20px; 
+    transform: translate(-100%,-1300%);
+}
+#ProfilePFP{
+    width:300px;
+}

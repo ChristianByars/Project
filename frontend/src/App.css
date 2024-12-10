@@ -1,0 +1,137 @@
+#root {
+  background-color: rgb(146, 50, 117);
+  background-size:cover ;
+  border-radius: 30px;
+  margin:0 auto;
+}
+
+body{
+  background-color: white;
+}
+.Profile{
+  background-color: rgb(255, 255, 255);
+  background-size:cover ;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  padding-left: 150px;
+  padding-right: 150px
+}
+.Testing{
+  color:black;
+  text-align: center;
+}
+.Teams{
+  background-color: rgb(146, 50, 117);
+  background-size:cover ;
+  border-radius: 30px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 150px;
+  padding-right: 150px
+  
+}
+.CatButton{
+  transform: translate(500px, -550px);
+  background-color: white;
+  cursor: pointer;
+}
+#CatLogo{
+  width:60px;
+  height:60px;
+  object-fit: contain;
+}
+.NotifsButton{
+  transform: translate(300px, -550px);
+  background-color: white;
+  cursor: pointer;
+}
+#NotifsLogo{
+  width:60px;
+  height:60px;
+  object-fit: contain;
+}
+.DMButton{
+  transform: translate(92px, -550px);
+  background-color: white;
+  cursor: pointer;
+}
+#DMLogo{
+  width:60px;
+  height:60px;
+  object-fit: contain;
+}
+#catGIF{
+  width:100px;
+  height:auto;
+}
+#humanGIF{
+  width:100px;
+  height:auto;
+}
+.Sign{
+  background-size:cover ;
+  border-radius: 30px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 150px;
+  padding-right: 150px
+}
+input[id = DisplayName]{
+  padding: 15px 20px;
+
+}
+input[id = TeamHuman]{
+padding-right: 100px;
+}
+.Birthday{
+  background-color: rgb(146, 50, 117);
+  background-size:cover ;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  padding-left: 150px;
+  padding-right: 150px
+}
+.Login{
+  background-color: rgb(146, 50, 117);
+  background-size:cover ;
+  border-radius: 30px;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 30px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
+  
+}
+.Title-Prompt{
+  margin-top: 40px;
+  text-align:center;
+ 
+}
+input[id = "email"]{
+  padding: 12px 20px;
+}
+input[id = "username"]{
+  padding: 12px 20px;
+}
+input[id = "password"]{
+  padding: 12px 20px;
+}
+input[id = "confirmpassword"]{
+  padding: 12px 20px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: brown;
+}
